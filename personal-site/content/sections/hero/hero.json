@@ -1,0 +1,39 @@
+{
+    "intro": "Hi, my name is",
+    "heroPhoto": {
+        "src": "../../images/me.png",
+        "alt": "My Photo"
+    },
+    "image": {
+        "src": "../../images/waving-hand.png",
+        "alt": "Waving Hand Emoji"
+    },
+    "title": "Wesley Holt.",
+    "subtitle": {
+        "prefix": "I use ",
+        "highlight": "data",
+        "suffix": " to solve scientific problems."
+    },
+    "description": "I am a machine learning researcher. Currently, I am pursuing a Ph.D. at Purdue University.",
+    "description-unused": [
+        {
+            "text": "I am a machine learning researcher. Currently, I am pursuing a Ph.D. at ",
+            "doHighlight": false,
+            "includeLink": false,
+            "url": ""
+        },
+        {
+            "text": "Purdue University",
+            "doHighlight": true,
+            "includeLink": true,
+            "url": "https://www.purdue.edu/"
+        },
+        {
+            "text": "."
+        }
+    ],
+    "socialProfiles": {
+        "from": ["LinkedIn", "Github", "Mail"],
+        "showIcons": false
+    }
+}

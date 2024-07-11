@@ -70,9 +70,9 @@
 .TopNavigationBar a {
     position: relative;
     font-size: 1rem;
-    font-weight: 700;
+    font-family: var(--sub-font);
     text-align: center;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     padding: 0;
     margin-right: 4rem;
 }
@@ -87,7 +87,7 @@
     height: 0.1563rem;
     width: 0%;
     bottom: -0.125rem;
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     transition: 200ms ease-out;
 }
 
@@ -99,14 +99,14 @@
     width: auto;
     height: auto;
     border-radius: var(--border-radius);
-    border: 0.125rem solid var(--primary-color);
+    border: 0.125rem solid var(--tertiary-color);
     background: var(--background-color);
     padding: 0.5rem 1.5rem;
     transition: 20ms ease-out;
 }
 
 .TopNavigationBar a.CtaButton:hover {
-    background: var(--primary-color);
+    background: var(--tertiary-color);
     color: var(--background-color);
 }
 

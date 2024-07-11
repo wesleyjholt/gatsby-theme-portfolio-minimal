@@ -11,7 +11,8 @@
     },
     "workspaces": [
         "gatsby-theme-portfolio-minimal",
-        "example-site"
+        "example-site",
+        "personal-site"
     ],
     "repository": {
         "type": "git",

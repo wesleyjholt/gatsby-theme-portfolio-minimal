@@ -1,0 +1,39 @@
+{
+    "intro": "Hi, my name is",
+    "heroPhoto": {
+        "src": "../../images/me.jpg",
+        "alt": "My Photo"
+    },
+    "image": {
+        "src": "../../images/waving-hand.png",
+        "alt": "Waving Hand Emoji"
+    },
+    "title": "Molly Holt.",
+    "subtitle": {
+        "prefix": "I am ",
+        "highlight": "a hot mama",
+        "suffix": "."
+    },
+    "description": "As stated above. I am  hot. And I am a mama.",
+    "description-unused": [
+        {
+            "text": "I am a machine learning researcher. Currently, I am pursuing a Ph.D. at ",
+            "doHighlight": false,
+            "includeLink": false,
+            "url": ""
+        },
+        {
+            "text": "Purdue University",
+            "doHighlight": true,
+            "includeLink": true,
+            "url": "https://www.purdue.edu/"
+        },
+        {
+            "text": "."
+        }
+    ],
+    "socialProfiles": {
+        "from": ["LinkedIn", "Github", "Mail"],
+        "showIcons": false
+    }
+}

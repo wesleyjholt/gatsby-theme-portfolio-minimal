@@ -23,7 +23,7 @@ export function Footer(): React.ReactElement {
                 <Link to="/" aria-label="home">
                     <Logo
                         fontSize="1.5rem"
-                        color={darkModeEnabled ? 'var(--primary-color)' : 'var(--background-color)'}
+                        color={darkModeEnabled ? 'var(--tertiary-color)' : 'var(--background-color)'}
                         theme={Theme.Dark}
                     />
                 </Link>
@@ -34,7 +34,7 @@ export function Footer(): React.ReactElement {
                                 key={key}
                                 to={linkObject.url}
                                 aria-label={linkObject.label}
-                                style={{ color: darkModeEnabled ? 'var(--primary-color)' : 'var(--background-color)' }}
+                                style={{ color: darkModeEnabled ? 'var(--tertiary-color)' : 'var(--background-color)' }}
                             >
                                 {linkObject.label}
                             </Link>

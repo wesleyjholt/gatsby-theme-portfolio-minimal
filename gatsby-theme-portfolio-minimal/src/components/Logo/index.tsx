@@ -7,6 +7,7 @@ import * as classes from './style.module.css';
 
 interface LogoProps {
     fontSize?: string;
+    fontFamily?: string;
     color?: string;
     theme?: Theme;
 }
@@ -15,7 +16,8 @@ export function Logo(props: LogoProps): React.ReactElement {
     const { globalState } = useGlobalState();
     const { logo } = useSiteConfiguration();
     const fontSize = props.fontSize || '2rem';
-    const color = props.color || 'var(--primary-color)';
+    const fontFamily = props.fontFamily || 'var(--sub-font)';
+    const color = props.color || 'var(--tertiary-color)';
 
     const Logo = getLogoContent(logo.image, logo.text);
     const LogoDark = getLogoContent(logo.imageDark, logo.text);
@@ -24,7 +26,7 @@ export function Logo(props: LogoProps): React.ReactElement {
     const ThemeSpecificLogo = theme === Theme.Dark ? LogoDark || Logo : Logo;
 
     return (
-        <div className={classes.Logo} aria-roledescription="logo" style={{ fontSize, color }}>
+        <div className={classes.Logo} aria-roledescription="logo" style={{ fontSize, fontFamily, color }}>
             {ThemeSpecificLogo || logo.text}
         </div>
     );

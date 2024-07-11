@@ -27,12 +27,14 @@
 .Hero p {
     font-size: 1.125rem;
     margin-bottom: 2rem;
+    color: var(--subtext-color);
 }
 
 .Intro {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: var(--tertiary-color);
 }
 
 .ImagePrefix {
@@ -53,14 +55,15 @@
 
 @media (min-width: 768px) {
     .Hero .Title {
-        font-size: 2.625rem;
+        font-size: 4rem;
         line-height: 4rem;
         margin-bottom: 0;
     }
 
     .Hero .Subtitle {
-        font-size: 2rem;
-        line-height: 3rem;
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+        margin: 1rem 0 1rem 0;
     }
 
     .ImagePrefix {

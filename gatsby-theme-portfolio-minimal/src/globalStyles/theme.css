@@ -19,7 +19,7 @@ body[data-theme='lightTheme'] {
     --code-block-tkimp: #fd971f;
 }
 
-body[data-theme='darkTheme'] {
+/* body[data-theme='darkTheme'] {
     --primary-color: #fafafa;
     --secondary-color: #341677;
     --tertiary-color: #252525;
@@ -31,6 +31,54 @@ body[data-theme='darkTheme'] {
     --box-shadow-color: rgba(0, 0, 0, 0.16);
     --box-shadow-hover-color: rgba(0, 0, 0, 0.32);
     --base-font: 'Roboto', Arial, sans-serif;
+    --sub-font: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    --code-block-bg: #151f28;
+    --code-block-var: #ff39a7;
+    --code-block-num: #fed703;
+    --code-block-fun: #c653ff;
+    --code-block-keyword: #2bdcff;
+    --code-block-comment: #8292a2;
+    --code-block-tkimp: #fd971f;
+} */
+
+/* body[data-theme='darkTheme'] {
+    --primary-color: #ccd6f6;
+    --secondary-color: #8892b0;
+    --tertiary-color: rgba(100, 255, 219, 0.8);
+    --tertiary-color-light: rgba(100, 255, 219, 0.4);
+    --text-color: #ccd6f6;
+    --subtext-color: #8892b0;
+    --background-color: #0a192f;
+    --card-background-color: #1c1c1c;
+    --scroll-bar-color: rgba(255, 255, 255, 0.5);
+    --box-shadow-color: rgba(0, 0, 0, 0.16);
+    --box-shadow-hover-color: rgba(0, 0, 0, 0.32);
+    --base-font: 'Roboto', Arial, sans-serif;
+    --sub-font: 'SF Mono', monospace;
+    --code-block-bg: #151f28;
+    --code-block-var: #ff39a7;
+    --code-block-num: #fed703;
+    --code-block-fun: #c653ff;
+    --code-block-keyword: #2bdcff;
+    --code-block-comment: #8292a2;
+    --code-block-tkimp: #fd971f;
+} */
+
+/* Molly */
+body[data-theme='darkTheme'] {
+    --primary-color: #ccd6f6;
+    --secondary-color: #8892b0;
+    --tertiary-color: rgba(217, 130, 23, 0.8);
+    --tertiary-color-light: rgba(217, 130, 23, 0.4);
+    --text-color: #ffffff;
+    --subtext-color: #9e9e9e;
+    --background-color: #444444;
+    --card-background-color: #1c1c1c;
+    --scroll-bar-color: rgba(255, 255, 255, 0.5);
+    --box-shadow-color: rgba(0, 0, 0, 0.16);
+    --box-shadow-hover-color: rgba(0, 0, 0, 0.32);
+    --base-font: 'Roboto', Arial, sans-serif;
+    --sub-font: 'SF Mono', monospace;
     --code-block-bg: #151f28;
     --code-block-var: #ff39a7;
     --code-block-num: #fed703;

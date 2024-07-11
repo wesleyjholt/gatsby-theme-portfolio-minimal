@@ -2,16 +2,17 @@
     width: auto;
     height: auto;
     background: var(--background-color);
-    background: linear-gradient(to right, var(--primary-color) 50%, var(--background-color) 50%);
+    background: linear-gradient(to right, var(--tertiary-color) 50%, var(--background-color) 50%);
     background-size: 205% 100%;
     background-position: right bottom;
     border-radius: var(--border-radius);
-    border: 0.125rem solid var(--primary-color);
+    border: 0.125rem solid var(--tertiary-color);
     padding: 0.25rem 1.25rem;
     margin-right: 0.5rem;
     transition: all 0.1s ease-out;
-    font-size: 1rem;
-    color: var(--primary-color);
+    font-size: 0.8rem;
+    font-family: var(--sub-font);
+    color: var(--tertiary-color);
 }
 
 .Profile:hover {

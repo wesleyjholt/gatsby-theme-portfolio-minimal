@@ -29,7 +29,7 @@ export function HeroSection(props: PageSection): React.ReactElement {
                     </div>
                 )}
                 <div className={classes.Hero}>
-                    <div className={classes.Intro}>
+                    {/* <div className={classes.Intro}>
                         {data.intro && <span className={classes.ImagePrefix}>{data.intro}</span>}
                         {data.image?.src && (
                             <Animation className={classes.Image} type="waving-hand" duration={2500} iterationCount={3}>
@@ -40,7 +40,8 @@ export function HeroSection(props: PageSection): React.ReactElement {
                                 />
                             </Animation>
                         )}
-                    </div>
+                    </div> */}
+                    <h5>{data.intro}</h5>
                     <h1 className={classes.Title}>{data.title}</h1>
                     <h2 className={classes.Subtitle}>
                         {data.subtitle.prefix}
